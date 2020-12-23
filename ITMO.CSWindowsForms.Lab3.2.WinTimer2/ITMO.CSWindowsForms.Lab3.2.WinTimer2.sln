@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSWindowsForms.Lab3.2.WinTimer2", "ITMO.CSWindowsForms.Lab3.2.WinTimer2.csproj", "{638B646C-3817-4258-B2D0-09920845964B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{638B646C-3817-4258-B2D0-09920845964B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638B646C-3817-4258-B2D0-09920845964B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638B646C-3817-4258-B2D0-09920845964B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638B646C-3817-4258-B2D0-09920845964B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCB022AF-41BA-4F15-BCD1-2591D38B75D3}
+	EndGlobalSection
+EndGlobal
