@@ -873,6 +873,7 @@ namespace SimpleCalculator
         private async void KeyFact_ClickAsync(object sender, EventArgs e)
         {
             VersionInfo.Text = "Значение факториала: " + await CalcEngine.CalcFactAsync();
+            CalcEngine.CalcReset();
 
             //progressBar1.Value = 0;
             //BackgroundWorker worker = new BackgroundWorker();

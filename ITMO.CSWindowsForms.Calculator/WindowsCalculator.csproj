@@ -70,9 +70,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CalculatorEngine">
-      <Name>CalculatorEngine</Name>
-      <HintPath>CalculatorEngine\bin\Debug\CalculatorEngine.dll</HintPath>
+    <Reference Include="CalculatorEngine, Version=2.0.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\CalculatorEngine.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>

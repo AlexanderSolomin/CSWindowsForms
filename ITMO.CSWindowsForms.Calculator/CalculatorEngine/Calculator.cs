@@ -113,15 +113,17 @@ namespace Calculator
         }
         public static Task<string> CalcFactAsync()
         {
+            
             facFirstNumber = Math.Abs(Convert.ToInt32(stringAnswer));
             long f = 1;
+            CalcReset();
             return Task.Run(() =>
                         {
                             while (facFirstNumber > 1)
                             {
                                 f *= facFirstNumber--;
                             }
-                            Thread.Sleep(5000);
+                            Thread.Sleep(50);
                             stringAnswer = Convert.ToString(f);
                             return (stringAnswer);
                         });
@@ -134,7 +136,7 @@ namespace Calculator
 
         public static string CalcNumber(string KeyNumber)
         {
-            stringAnswer = stringAnswer + KeyNumber;
+            stringAnswer += KeyNumber;
             return (stringAnswer);
         }
 
@@ -179,7 +181,7 @@ namespace Calculator
             if (!decimalAdded && !secondNumberAdded)
             {
                 if (stringAnswer != "")
-                    stringAnswer = stringAnswer + ".";
+                    stringAnswer += ".";
                 else
                     stringAnswer = "0.";
 
