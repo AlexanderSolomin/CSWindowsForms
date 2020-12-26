@@ -26,8 +26,8 @@ namespace Calculator
         //
 
         private static double negativeConverter = -1;
-        // TODO: Upgrade the version number to 4.0.1.1
-        private static string versionInfo = "Calculator v3.0.1.1";
+        // TODO: Upgrade the version number to 5.0.1.1
+        private static string versionInfo = "Calculator v4.0.1.1";
 
         //
         // Module-level Variables.
@@ -113,7 +113,6 @@ namespace Calculator
         }
         public static Task<string> CalcFactAsync()
         {
-            
             facFirstNumber = Math.Abs(Convert.ToInt32(stringAnswer));
             long f = 1;
             CalcReset();
